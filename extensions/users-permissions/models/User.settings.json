@@ -59,8 +59,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "profile": {
-      "model": "profile"
+    "img": {
+      "type": "string"
+    },
+    "experiences": {
+      "collection": "experiences",
+      "via": "user"
     }
   }
 }

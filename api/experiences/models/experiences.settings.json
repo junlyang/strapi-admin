@@ -21,6 +21,11 @@
     "profile": {
       "via": "experiences",
       "model": "profile"
+    },
+    "user": {
+      "via": "experiences",
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

@@ -19,6 +19,14 @@
     "isAccepted": {
       "type": "boolean",
       "default": false
+    },
+    "from": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "to": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

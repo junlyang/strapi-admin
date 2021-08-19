@@ -21,10 +21,12 @@
       "default": false
     },
     "from": {
-      "model": "profile"
+      "model": "user",
+      "plugin": "users-permissions"
     },
     "to": {
-      "model": "profile"
+      "model": "user",
+      "plugin": "users-permissions"
     }
   }
 }
