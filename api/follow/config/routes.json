@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/experiences",
-      "handler": "experiences.find",
+      "path": "/follows",
+      "handler": "follow.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/count",
-      "handler": "experiences.count",
+      "path": "/follows/count",
+      "handler": "follow.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/:id",
-      "handler": "experiences.findOne",
+      "path": "/follows/:id",
+      "handler": "follow.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/experiences",
-      "handler": "experiences.create",
+      "path": "/follows",
+      "handler": "follow.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/experiences/:id",
-      "handler": "experiences.update",
+      "path": "/follows/:id",
+      "handler": "follow.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/experiences/:id",
-      "handler": "experiences.delete",
+      "path": "/follows/:id",
+      "handler": "follow.delete",
       "config": {
         "policies": []
       }

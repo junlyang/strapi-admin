@@ -59,9 +59,8 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "experiences": {
-      "collection": "experiences",
-      "via": "userId"
+    "profile": {
+      "model": "profile"
     }
   }
 }

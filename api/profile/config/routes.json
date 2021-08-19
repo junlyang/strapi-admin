@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/experiences",
-      "handler": "experiences.find",
+      "path": "/profiles",
+      "handler": "profile.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/count",
-      "handler": "experiences.count",
+      "path": "/profiles/count",
+      "handler": "profile.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/:id",
-      "handler": "experiences.findOne",
+      "path": "/profiles/:id",
+      "handler": "profile.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/experiences",
-      "handler": "experiences.create",
+      "path": "/profiles",
+      "handler": "profile.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/experiences/:id",
-      "handler": "experiences.update",
+      "path": "/profiles/:id",
+      "handler": "profile.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/experiences/:id",
-      "handler": "experiences.delete",
+      "path": "/profiles/:id",
+      "handler": "profile.delete",
       "config": {
         "policies": []
       }

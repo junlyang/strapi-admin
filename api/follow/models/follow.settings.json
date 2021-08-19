@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "experiences",
+  "collectionName": "follows",
   "info": {
-    "name": "experiences",
+    "name": "Follow",
     "description": ""
   },
   "options": {
@@ -12,15 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "company": {
-      "type": "string"
+    "isOpened": {
+      "type": "boolean",
+      "default": false
     },
-    "role": {
-      "type": "string"
-    },
-    "profile": {
-      "via": "experiences",
-      "model": "profile"
+    "isAccepted": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

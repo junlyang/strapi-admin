@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/experiences",
-      "handler": "experiences.find",
+      "path": "/friends",
+      "handler": "friend.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/count",
-      "handler": "experiences.count",
+      "path": "/friends/count",
+      "handler": "friend.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/experiences/:id",
-      "handler": "experiences.findOne",
+      "path": "/friends/:id",
+      "handler": "friend.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/experiences",
-      "handler": "experiences.create",
+      "path": "/friends",
+      "handler": "friend.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/experiences/:id",
-      "handler": "experiences.update",
+      "path": "/friends/:id",
+      "handler": "friend.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/experiences/:id",
-      "handler": "experiences.delete",
+      "path": "/friends/:id",
+      "handler": "friend.delete",
       "config": {
         "policies": []
       }

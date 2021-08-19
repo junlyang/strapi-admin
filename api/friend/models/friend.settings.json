@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "experiences",
+  "collectionName": "friends",
   "info": {
-    "name": "experiences",
+    "name": "friend",
     "description": ""
   },
   "options": {
@@ -12,14 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "company": {
-      "type": "string"
+    "isOpened": {
+      "type": "boolean",
+      "default": false
     },
-    "role": {
-      "type": "string"
+    "isAccepted": {
+      "type": "boolean",
+      "default": false
     },
-    "profile": {
-      "via": "experiences",
+    "from": {
+      "model": "profile"
+    },
+    "to": {
       "model": "profile"
     }
   }

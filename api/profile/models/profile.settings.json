@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "experiences",
+  "collectionName": "profiles",
   "info": {
-    "name": "experiences",
+    "name": "profile",
     "description": ""
   },
   "options": {
@@ -12,15 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "company": {
+    "name": {
       "type": "string"
     },
-    "role": {
+    "img": {
       "type": "string"
     },
-    "profile": {
-      "via": "experiences",
-      "model": "profile"
+    "experiences": {
+      "collection": "experiences",
+      "via": "profile"
     }
   }
 }
