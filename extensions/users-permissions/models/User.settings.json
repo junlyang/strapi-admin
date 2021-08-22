@@ -65,6 +65,10 @@
     "experiences": {
       "collection": "experiences",
       "via": "user"
+    },
+    "opened": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
